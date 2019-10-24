@@ -13,7 +13,10 @@ body
     
    
 }
-
+.container
+{
+  margin-top: 2%;
+}
 .logo_image
 {
     width: 15%;
@@ -30,7 +33,7 @@ body
     background-position: cover;
 }
 
-  .heading1
+  .heading
   {
       margin-top: 10%;
       /* margin-left: 25%; */
@@ -113,7 +116,7 @@ body
   
   /* linked In button css */
   
-.container-fluid
+.cards
 {
     /* margin-bottom: 1px; */
     padding-top: 20%;
@@ -144,15 +147,16 @@ body
 
 .jumbotron
 {
-    margin-top: 40%;
+    margin-top: 15%;
+    /* background-color: transparent; */
 }
-.icon {
+/* .icon {
     font-size: 40px;
     color: orange;
     float: left;
     position: relative;
     top: 10px;
-  }
+  } */
 .row2
 {
     padding-left: 80%;
@@ -162,10 +166,36 @@ body
   padding-bottom: 5px;
   padding-left: 6%;
 }
-
-
-  
-  @media(max-width: 576px)
+.card1
+{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.card2
+{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.card3
+{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.jumbotron {
+  background-color: darkgray !important; 
+}
+.heading2
+{
+  margin-left: 2%;
+}
+.one_image
+ {
+   /* width: 8%; */
+   /* padding-top: 4%; */
+   padding-right: 5%;
+ } 
+       /*Media Queries  */
+@media(max-width: 576px)
   {
   .column2 {
     margin-top: 40%;
@@ -173,7 +203,17 @@ body
   }
 .btn , .btn-linkedin 
  {
-  margin-left: 25%;
-  padding-left: 5%;
+  margin-left: 20%;
+  /* padding-left: 10%; */
+  /* margin-left: 10%; */
  }
-}     
+ .heading
+ {
+     margin-top: 20%;
+     /* margin-left: 25%; */
+ } 
+
+}
+      /*Media queries End Here  */
+
+
