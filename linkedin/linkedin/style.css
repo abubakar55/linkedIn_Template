@@ -223,39 +223,32 @@ body
                 /* logo stylling */
 .logo_1
 {
-  width: 50%;
+  width: 100%;
 }
 .logo_2
 {
-  width: 50%;
+  width: 100%;
 }
 .logo_3
 {
-  width: 50%;
+  width: 100%;
 }
 .logo_4
 {
-  width: 50%;
+  width: 100%;
 }
-.logo_1,.logo_2,.logo_3,.logo_4
-{
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
+
+
 .jumbotron
 {
   opacity: 0.5;
-}
-.card_1,.card_2,.card_3
-{
-  opacity: 1.0;
+  z-index: 1;
 }
 
                 /*Media Queries  */
 @media(max-width: 576px)
   {
-  .column2
-   {
+  .column2 {
     margin-top: 40%;
     
   }
@@ -291,16 +284,13 @@ body
  }
 
 }
-@media(max-width: 520px)
+/* @media(max-width: 680px)
 {
-  .logo_1
+.navbar-nav
 {
-  /* margin-top: 100%; */
-  padding-bottom: 5%;
-  /* margin-bottom: 10%; */
-  padding-top: 50%;
+  margin-left: 33%;
 }
-}
+} */
 
       /*Media queries End Here  */
 
